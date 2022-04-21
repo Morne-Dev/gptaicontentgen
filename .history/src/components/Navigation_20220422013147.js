@@ -11,7 +11,7 @@ class Navigation extends Component {
       <div> 
         <Navbar bg="dark" variant="dark" sticky="logo" expand="md" collapseOnSelect>
         <Navbar.Brand href="/">
-            <img src={logo} width="50px" alt="Brand" />
+            <img src={logo} width="50px" />
             Content Generator
         </Navbar.Brand>
 

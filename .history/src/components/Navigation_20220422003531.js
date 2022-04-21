@@ -11,7 +11,7 @@ class Navigation extends Component {
       <div> 
         <Navbar bg="dark" variant="dark" sticky="logo" expand="md" collapseOnSelect>
         <Navbar.Brand href="/">
-            <img src={logo} width="50px" alt="Brand" />
+            <img src={logo} width="50px" />
             Content Generator
         </Navbar.Brand>
 
@@ -20,8 +20,8 @@ class Navigation extends Component {
         <Navbar.Collapse>
             <Nav>
                 <Nav.Link href="product-description">Product Description</Nav.Link>
-                <Nav.Link href="cold-emails">Cold Emails</Nav.Link>
-                <Nav.Link href="tweets">Tweets</Nav.Link>
+                <Nav.Link href="cold-emails">Product Description</Nav.Link>
+                <Nav.Link href="tweets">Product Description</Nav.Link>
             </Nav>
         </Navbar.Collapse>
 
