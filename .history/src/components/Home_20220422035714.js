@@ -3,7 +3,6 @@ import { Component } from 'react'
 import Display from './Display'
 import { Container, Row, Col, Carousel } from 'react-bootstrap'
 import logoImg from '../logo2.png'
-import "../../node_modules/bootstrap/dist/css/bootstrap.css"
 
 class Home extends Component {
     render() {

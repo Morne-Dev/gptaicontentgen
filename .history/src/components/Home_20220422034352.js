@@ -3,7 +3,6 @@ import { Component } from 'react'
 import Display from './Display'
 import { Container, Row, Col, Carousel } from 'react-bootstrap'
 import logoImg from '../logo2.png'
-import "../../node_modules/bootstrap/dist/css/bootstrap.css"
 
 class Home extends Component {
     render() {
@@ -15,10 +14,9 @@ class Home extends Component {
                     <Carousel>
                         <Carousel.Item>
                             <img 
-                            className="d-block w-100"
+                            className="d-block w-70"
                             src={logoImg}
-                            alt="ai text generator"
-                            />
+                            alt="ai text generator"/>
                         </Carousel.Item>
                     </Carousel>
                     <br />
